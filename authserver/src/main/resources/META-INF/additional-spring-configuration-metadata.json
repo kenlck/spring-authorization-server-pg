@@ -1,0 +1,19 @@
+{
+  "properties": [
+    {
+      "name": "jwt.key.private",
+      "type": "java.lang.String",
+      "description": "Path to the private key used to sign the JWT token"
+    },
+    {
+      "name": "jwt.key.public",
+      "type": "java.lang.String",
+      "description": "Path to the public key used to verify the JWT token"
+    },
+    {
+      "name": "jwt.key.id",
+      "type": "java.lang.String",
+      "description": "The key id used to sign the JWT token"
+    }
+  ]
+}
